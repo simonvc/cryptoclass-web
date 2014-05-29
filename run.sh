@@ -1,1 +1,1 @@
-docker run -d=true -p 80:80 -name web cc_apache
+docker run --name web --net=host -d=true cc_apache
